@@ -1,40 +1,34 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-      <a class="navbar-brand" href="#">Mi Sitio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link active" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-              </li>
-          </ul>
-      </div>
-  </div>
-</nav>
-<div class="container-fluid">
-  <div class="row">
-      <!-- Columna lateral izquierda -->
-      <div class="col-md-3 bg-light p-4" style="height: 100vh;">
-          <h3 class="mb-4">Columna Lateral</h3>
-          <div class="mb-3">
-              <label for="inputTexto" class="form-label">Ingrese texto:</label>
-              <input type="text" class="form-control" id="inputTexto" placeholder="Escriba aquí...">
-          </div>
-          <button type="button" class="btn btn-primary">Enviar</button>
-      </div>
-      
-      <!-- Contenido principal (puedes añadir más contenido aquí) -->
-      <div class="col-md-9">
-          <h1 class="mt-4">Contenido Principal</h1>
-          <p>Aquí puedes agregar el contenido principal de tu página.</p>
-      </div>
-  </div>
+<div class="page-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-green">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Sitio Embrujado</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-2">
+            <app-insert-column ></app-insert-column>
+    
+        </div>
+        <div class="page-container col-md-9">
+            <router-outlet  ></router-outlet>
+        </div>
+    </div>
+   
+    
 </div>
