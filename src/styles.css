@@ -74,3 +74,17 @@ a:hover {
 .navbar-green {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+.secret-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #4CAF50;
+    animation: blink 1s infinite;
+  }
+
+  .halloween-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+  }

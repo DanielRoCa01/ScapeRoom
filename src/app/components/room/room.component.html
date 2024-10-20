@@ -1,0 +1,29 @@
+<div class="halloween-container main-content">
+  <div class="section-content p-3">
+    <h1>{{ room?.name?.toLocaleUpperCase() }}</h1>
+    <div *ngFor="let tempRiddle of room?.riddleList">
+        
+        <div *ngIf="tempRiddle.imageUrl!=undefined">
+            <img [src]="tempRiddle.imageUrl" alt="Imagen de Halloween" class="halloween-image">
+        </div>
+        <div *ngIf="tempRiddle.hintText!=undefined">
+            <p>{{tempRiddle.hintText}}</p>
+        </div>
+        <div *ngFor="let tempLink of tempRiddle.linkList">
+            <a [href]="tempLink" target="_blank">{{ tempLink }}</a>
+        </div>
+        
+    <div *ngIf="tempRiddle.answerText!=null"><form (ngSubmit)="checkSecretWord(tempRiddle)">
+        <input type="text" [(ngModel)]="tempRiddle.userInput" name="secretInput" placeholder="Escribe la palabra mágica...">
+        <button type="submit">Revelar secreto</button>
+      </form></div>
+    
+    
+    <p *ngIf="tempRiddle.done" class="secret-text">
+      ¡Has descubierto el secreto de Halloween! 🎃👻
+    </p>
+    </div>
+    
+  </div>
+   
+  </div>

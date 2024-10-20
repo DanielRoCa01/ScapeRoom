@@ -1,8 +1,14 @@
 <div class=" menu-sidebar-content js-scrollbar1" >
-    <h3 class="mb-4 blink">🎃 Columna Embrujada 🎃</h3>
-    <div class="mb-3">
-        <label for="inputTexto" class="form-label">Escribe tu hechizo:</label>
-        <input type="text" class="form-control" id="inputTexto" placeholder="Abracadabra...">
-    </div>
-    <button type="button" class="btn btn-halloween">Conjurar</button>
+    
+        <h3 class="mb-4 blink">🎃 Columna Embrujada 🎃</h3>
+        <div class="mb-3">
+            <form (ngSubmit)="onSubmit()">
+                <label for="inputTexto"  class="form-label">Inser the scape code</label>
+                <input type="text" name="secretInput" class="form-control" [(ngModel)]="scapeCode"  >
+                <button type="submit" class="btn btn-halloween">Conjurar</button>
+            </form>
+        </div>
+        
+    
+   
 </div>
