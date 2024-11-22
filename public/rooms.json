@@ -1,0 +1,144 @@
+{
+    "rooms": [
+      {
+        "name": "SapoVillage",
+        "riddleList": [
+          {
+            "done": true,
+            "userInput": "",
+            "imageUrl": null,
+            "hintText": "Bienvenido seais al hogar de los croanidos \n lugar para desamparados y perdidos. \n Si vuestro deseo es regresar\n  En el castillo debeis entrar \n Para la direccion pendiente\n Preguntar en la casa de cada terrateniente  ",
+            "linkList": [],
+            "answerText": null,
+            "rewardText": "SC: (Duque)-(Marques)-(Conde)-(Baron)"
+          }
+        ],
+        "key": "TOWN"
+      },
+      {
+        "name": "RanasTillo",
+        "riddleList": [
+          {
+            "done": true,
+            "userInput": "",
+            "imageUrl": null,
+            "hintText": "Finalmente llegais al castillo. En el hall tres puertas sellan vuestro destino. Debereis dividiros para continuar adelante. Tres rumbos tomais Salon, escaleras y cocinas. Tened cuidado y sobre todo... Manteneros comunicados ",
+            "linkList": [],
+            "answerText": null,
+            "rewardText": "El tarot os guiara"
+          }
+        ],
+        "key": "9MM-B12-7F5-A6A"
+      },
+      {
+        "name": "Ritual de salida",
+        "riddleList": [
+          {
+            "done": true,
+            "userInput": "",
+            "imageUrl": null,
+            "hintText": "3 personas en el medio, de cuclillas y con los brazos alzados, los demás deben darse la mano y dar 2 vueltas completas croando. Una vez hecho todos al unísono debéis gritar Gran Rana Omnipotente Mama Pitos. ",
+            "linkList": [],
+            "answerText": null,
+            "rewardText": "RAPIDO"
+          }
+        ],
+        "key": "749816"
+      },
+      {
+        "name": "Bocadillo Casa 6",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": "https://daroca-aws-demo-s3.s3.eu-west-1.amazonaws.com/images/bocadillo_casa_6.png",
+            "hintText": null,
+            "linkList": [],
+            "answerText": null,
+            "rewardText": ""
+          }
+        ],
+        "key": "A910T"
+      }
+      ,
+      {
+        "name": " Casa 6",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": null,
+            "hintText": null,
+            "linkList": ["https://drive.google.com/file/d/1gK74AWip3uIibdfniDwAMtdSFySo8dFk/view?usp=sharing"],
+            "answerText": null,
+            "rewardText": ""
+          }
+        ],
+        "key": "RHYTHM"
+      }
+      ,
+      {
+        "name": "Bocadillo Casa 3",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": "https://daroca-aws-demo-s3.s3.eu-west-1.amazonaws.com/images/bocadillo_casa_3.png",
+            "hintText": null,
+            "linkList": [],
+            "answerText": null,
+            "rewardText": ""
+          }
+        ],
+        "key": "JUMP"
+      }
+      ,
+      {
+        "name": " Casa 3",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": null,
+            "hintText": "Para el código de esta prueba, debéis numerar las rocas de izquierda a derecha. Después de completar el juego, anotar en qué orden habéis pulsado cada roca. Por ejemplo, si primero habéis pulsado la roca 5 (donde está la primera rana marrón) y luego la roca 6 (2ª rana marrón) el principio del código será 56. Spoiler y ayudita: empezad por la 3.",
+            "linkList": ["https://www3.gobiernodecanarias.org/medusa/eltanquematematico/proyectoNEWTON/ovejalechugaleon/seisranas.html"],
+            "answerText": "356421357642354",
+            "rewardText": "SC=JUMP"
+          }
+        ],
+        "key": "CROACK"
+      }
+      ,
+      {
+        "name": "casa 8",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": "https://daroca-aws-demo-s3.s3.eu-west-1.amazonaws.com/images/codigo_casa_8.png",
+            "hintText": null,
+            "linkList": [],
+            "answerText": null,
+            "rewardText": ""
+          }
+        ],
+        "key": "HINT"
+      }
+      ,
+      {
+        "name": "Casa 11",
+        "riddleList": [
+          {
+            "done": false,
+            "userInput": "",
+            "imageUrl": "https://daroca-aws-demo-s3.s3.eu-west-1.amazonaws.com/images/bocadillo_casa_11.png",
+            "hintText": null,
+            "linkList": [],
+            "answerText": null,
+            "rewardText": ""
+          }
+        ],
+        "key": "DANGER"
+      }
+    ]
+  }

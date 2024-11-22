@@ -9,7 +9,7 @@ export class Riddle {
        public rewardText:string
 
     ){
-        if(answerText===undefined){
+        if(answerText===null){
             this.done=true
         }
     }
